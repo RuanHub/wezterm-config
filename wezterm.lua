@@ -9,8 +9,6 @@ wezterm.on("gui-startup", function()
 	window:gui_window():maximize()
 end)
 
--- Use PowerShell as default terminal
-config.default_prog = { "pwsh.exe" }
 -- This is where you actually apply your config choices
 
 -- For example, changing the color scheme:
